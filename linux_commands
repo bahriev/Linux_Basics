@@ -1,0 +1,44 @@
+# LINUX COMMANDS CHEAT SHEET
+
+## Navigation
+- `pwd` – Prints the current working directory.
+- `cd` – Changes the current directory (without arguments, goes home).
+- `cd /` – Goes to the root directory.
+- `cd ..` – Moves one directory up.
+
+## Files and Directories
+- `ls` – Lists files and directories.
+- `ls -a` – Lists all files, including hidden files.
+- `ls -la` – Lists all files with details, including hidden files.
+- `mkdir` – Creates a new directory.
+- `touch` – Creates an empty file.
+- `cat` – Displays file contents.
+- `cp` – Copies files or directories.
+- `rm` – Deletes files.
+- `whoami` – Displays the current username.
+
+## Text Editors (Vi / Vim)
+- `vi` – Opens a file in the Vi text editor.
+- `vim` – Opens a file in the Vim text editor.
+- `i` – Enters Insert Mode.
+- `Esc` – Returns to Normal Mode.
+- `:w` – Saves changes.
+- `:q` – Exits the editor.
+- `:wq` – Saves and exits.
+- `:q!` – Exits without saving.
+
+## File Permissions (chmod)
+- `chmod` – Changes file or directory permissions.
+- `r` – Read permission (4 / 100).
+- `w` – Write permission (2 / 010).
+- `x` – Execute permission (1 / 001).
+
+### Common chmod Commands
+- `chmod 755 file` – Owner: rwx, Group: r-x, Others: r-x.
+- `chmod 644 file` – Owner: rw-, Group: r--, Others: r--.
+- `chmod 700 file` – Owner: rwx, Group: ---, Others: ---.
+- `chmod 777 file` – Everyone gets rwx.
+- `chmod +x file` – Adds execute permission.
+- `chmod -w file` – Removes write permission.
+- `ls -l` – Checks file permissions.
+
